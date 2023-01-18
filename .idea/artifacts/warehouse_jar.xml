@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="warehouse:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/warehouse_jar</output-path>
+    <root id="archive" name="warehouse.jar">
+      <element id="module-output" name="warehouse" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/poi-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/log4j-1.2.13.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/poi-ooxml-4.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/ooxml-schemas-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/pdfbox-app-2.0.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/poi-ooxml-schemas-4.1.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
