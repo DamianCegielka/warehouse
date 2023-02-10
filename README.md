@@ -18,13 +18,14 @@ The main class of the Warehouse Value Calculator is MainFrame in the org.project
 All these classes work together to provide the user with a comprehensive solution to calculate the inventory value.
 
 # Features
+Imports exchange rates from the National Bank of Poland website
 Import beginning inventory in .xlsx format
 Import purchase invoices in .pdf format
 Import sale invoices in .xlsx format
 Generates a .xlsx file containing the ending inventory value
-Imports exchange rates from the National Bank of Poland website
 Converts foreign currency into PLN
-Requirements
+
+# Requirements
 To use the Warehouse Value Calculator, you need to have the following software installed on your computer:
 
 + Java 8 or higher
@@ -35,13 +36,13 @@ To use the Warehouse Value Calculator, you need to have the following software i
 To use the Warehouse Value Calculator, follow these steps:
 
 Launch the application
-+ Click the 'Load Warehouse' button to import the beginning inventory file
-+ Click the 'Load Sales' button to import the sale invoices file
-+ Click the 'Load Delivers' button to import the purchase invoices file
-+ Click the 'Calculate' button to calculate the inventory value
-+ Click the 'Current Rate' button to import the exchange rate from the National Bank of Poland website
-+ Click the 'Reload Table' button to reload the table with updated data
-+ Click the 'Export' button to generate a .xlsx file containing the ending inventory value
++ Click the 'Pobierz kursy walut' (Current Rate) button to import the exchange rate from the National Bank of Poland website
++ Click the 'Wczytaj magazyn' (Load Warehouse) button to import the beginning inventory file
++ Click the 'Wczytaj dostawy' (Load Delivers) button to import the purchase invoices file
++ Click the 'Wczytaj sprzedaz' (Load Sales) button to import the sale invoices file
++ Click the 'Oblicz' (Calculate) button to calculate the inventory value
++ Click the 'Odswiez' (Reload Table) button to reload the table with updated data
++ Click the 'Eksportuj' 'Export' button to generate a .xlsx file containing the ending inventory value
 
 # Limitations
 The Warehouse Value Calculator only supports .xlsx and .pdf file formats for importing data.
