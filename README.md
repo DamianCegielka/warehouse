@@ -3,7 +3,6 @@ The Warehouse Value Calculator is desktop application designed to help users cal
 
 The application also imports exchange rates from the National Bank of Poland website and converts foreign currency into PLN.
 
-Inline-style:
 ![alt text](https://github.com/DamianCegielka/warehouse/blob/610b444e2d94701bd01eef86f26f1beb95e29c16/src/pictures/warehouse_desktop.jpg "Desktop screenshot")
 
 # Main Class
