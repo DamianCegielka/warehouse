@@ -3,6 +3,9 @@ The Warehouse Value Calculator is desktop application designed to help users cal
 
 The application also imports exchange rates from the National Bank of Poland website and converts foreign currency into PLN.
 
+Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Desktop screenshoot")
+
 # Main Class
 The main class of the Warehouse Value Calculator is MainFrame in the org.project.view package. This class is responsible for handling the graphical user interface and implementing the core functionalities of the application. The class uses a number of other classes to perform its tasks, including:
 
