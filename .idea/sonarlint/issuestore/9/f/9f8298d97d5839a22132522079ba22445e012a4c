@@ -1,0 +1,37 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ïÿñ¨
+k
+java:S1104"UMake tabelaNBP a static final constant or non-public and provide accessors if needed.(ïÿñ¨
+n	java:S116"TRename this field "SplitRate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰”–ùÿÿÿÿ
+d	java:S116"ORename this field "Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¢‹¿
+i	java:S116"ORename this field "Rate" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆç™üúÿÿÿÿ
+a
+java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+a
+java:S2677"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+c
+java:S5361!"HReplace this call to "replaceAll()" by a call to the "replace()" method.(úÑ’„ùÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(Ùß’å
+a
+java:S2677+"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+a
+java:S2677,"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+c
+java:S53612"HReplace this call to "replaceAll()" by a call to the "replace()" method.(úÑ’„ùÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(Ùß’å
+a
+java:S2677<"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+a
+java:S2677="LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+c
+java:S5361C"HReplace this call to "replaceAll()" by a call to the "replace()" method.(úÑ’„ùÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(Ùß’å
+a
+java:S2677M"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+a
+java:S2677N"LUse or store the value returned from "readLine" instead of throwing it away.(ƒÚ/
+c
+java:S5361T"HReplace this call to "replaceAll()" by a call to the "replace()" method.(úÑ’„ùÿÿÿÿ
+N	java:S106V"9Replace this use of System.out or System.err by a logger.(Ùß’å
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(²Äåïşÿÿÿÿ

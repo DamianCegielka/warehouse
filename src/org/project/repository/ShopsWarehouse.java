@@ -318,7 +318,7 @@ public class ShopsWarehouse {
             data[1] = "8";
         if (data[1].equals("wrz"))
             data[1] = "9";
-        if (data[1].equals("paz"))
+        if (data[1].equals("paz") || data[1].equals("paź"))
             data[1] = "10";
         if (data[1].equals("lis"))
             data[1] = "11";

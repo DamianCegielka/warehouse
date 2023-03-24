@@ -1,0 +1,11 @@
+
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(şñÃ“ıÿÿÿÿ
+k
+java:S1450"URemove the "cosDoc" field and declare it as a local variable in the relevant methods.(¾´™»
+i
+java:S1450"SRemove the "file" field and declare it as a local variable in the relevant methods.(ïÛú
+k
+java:S1450"URemove the "parser" field and declare it as a local variable in the relevant methods.(ê¶ì¡
+p
+java:S1450"ZRemove the "pdfStripper" field and declare it as a local variable in the relevant methods.(ÈÌ˜Š

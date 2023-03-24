@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Magazynier_1_7:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Magazynier_1_7_jar</output-path>
+    <root id="archive" name="warehouse.jar">
+      <element id="module-output" name="warehouse" />
+      <element id="dir-copy" path="D:/PLIKI ZALEŻNOSCI I EXCELE DO PROGRAMU MAGAZYN" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../biblioteki/poi-5.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../biblioteki/poi-ooxml-5.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../warehouse value calculator desktop/warehouse value calculator/library/pdfbox-app-2.0.27.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/commons-io-2.11.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/library/commons-collections4-4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../biblioteki/xmlbeans-5.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../biblioteki/commons-compress-1.21.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../biblioteki/log4j-api-2.19.0.jar" path-in-jar="/" />
+      <element id="library" level="application" name="PLIKI ZALEŻNOSCI I EXCELE DO PROGRAMU MAGAZYN" />
+    </root>
+  </artifact>
+</component>
