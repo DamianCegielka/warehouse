@@ -1,3 +1,5 @@
 Manifest-Version: 1.0
 Main-Class: org.project.WarehouseApplication
+Class-Path: C:\Users\Marta\IdeaProjects\warehouse\out\artifacts\warehous
+ e_jar
 
