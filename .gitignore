@@ -11,7 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
-out/artifacts
+out/artifacts/warehouse_jar/warehouse.jar
 
 ### Eclipse ###
 .apt_generated
