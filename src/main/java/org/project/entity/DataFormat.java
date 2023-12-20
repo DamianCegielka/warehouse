@@ -1,5 +1,7 @@
 package org.project.entity;
 
+import lombok.AllArgsConstructor;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
