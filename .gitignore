@@ -11,6 +11,7 @@ target/
 *.iws
 *.iml
 *.ipr
+*.jar
 
 ### Eclipse ###
 .apt_generated
@@ -30,6 +31,7 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+**/artifacts
 
 ### VS Code ###
 .vscode/
