@@ -1,4 +1,4 @@
-package org.project.repository.load;
+package org.project.service.load;
 
 import java.io.BufferedReader;
 import java.io.IOException;

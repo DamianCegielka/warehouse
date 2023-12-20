@@ -1,4 +1,4 @@
-package org.project.repository.load;
+package org.project.service.load;
 
 import org.apache.pdfbox.cos.COSDocument;
 import org.apache.pdfbox.io.RandomAccessFile;

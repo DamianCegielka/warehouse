@@ -1,4 +1,4 @@
-package org.project.repository.entity;
+package org.project.entity;
 
 
 public class RateFormat {

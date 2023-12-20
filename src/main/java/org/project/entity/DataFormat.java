@@ -1,4 +1,4 @@
-package org.project.repository.entity;
+package org.project.entity;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
