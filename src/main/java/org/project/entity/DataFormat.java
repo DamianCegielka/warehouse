@@ -1,7 +1,5 @@
 package org.project.entity;
 
-import lombok.AllArgsConstructor;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -15,12 +13,12 @@ public class DataFormat {
     private String description;
     private String size;
     private Double unityPrice;
-    private Integer	qtyShip;
+    private Integer qtyShip;
     private Double extendedPrice;
     private Double exchangeRate;
     private Double valuePLN;
-    private String connectDocuments="null";
-    private Double valueConnectDocuments=0.00;
+    private String connectDocuments = "null";
+    private Double valueConnectDocuments = 0.00;
 
     public DataFormat(String dateToPut, String nameInvoice, String material, String description, String size, Double unityPrice,
                       Integer qtyShip, Double extendedPrice, Double exchangeRate, Double valuePLN) {
@@ -35,17 +33,14 @@ public class DataFormat {
         setExtendedPrice(extendedPrice);
         setExchangeRate(exchangeRate);
         setValuePLN(valuePLN);
-
     }
 
     public SimpleDateFormat getdateFormat() {
-
         return dateFormat;
     }
 
     public String getDate() {
-
-        SimpleDateFormat rokMiesiacDzien=new SimpleDateFormat("yyyy-MM-dd");
+        SimpleDateFormat rokMiesiacDzien = new SimpleDateFormat("yyyy-MM-dd");
         return rokMiesiacDzien.format(date);
     }
 
@@ -103,7 +98,7 @@ public class DataFormat {
         if (!size.equals(""))
             this.size = size;
         else
-            this.size="NULL_size";
+            this.size = "NULL_size";
     }
 
     public Double getUnityPrice() {
@@ -111,9 +106,9 @@ public class DataFormat {
     }
 
     public void setUnityPrice(Double unityPrice) {
-        double tempValue=(unityPrice*100);
-        tempValue=Math.round(tempValue);
-        tempValue/=100;
+        double tempValue = (unityPrice * 100);
+        tempValue = Math.round(tempValue);
+        tempValue /= 100;
         this.unityPrice = tempValue;
     }
 
@@ -130,9 +125,9 @@ public class DataFormat {
     }
 
     public void setExtendedPrice(Double extendedPrice) {
-        double tempValue=(extendedPrice*100);
-        tempValue=Math.round(tempValue);
-        tempValue/=100;
+        double tempValue = (extendedPrice * 100);
+        tempValue = Math.round(tempValue);
+        tempValue /= 100;
 
         this.extendedPrice = tempValue;
     }
@@ -150,9 +145,9 @@ public class DataFormat {
     }
 
     public void setValuePLN(Double valuePLN) {
-        double tempValue=(valuePLN*100);
-        tempValue=Math.round(tempValue);
-        tempValue/=100;
+        double tempValue = (valuePLN * 100);
+        tempValue = Math.round(tempValue);
+        tempValue /= 100;
 
         this.valuePLN = tempValue;
     }
@@ -163,11 +158,10 @@ public class DataFormat {
 
     public void setConnectDocuments(String connectDocuments) {
 
-        if(this.getConnectDocuments().equals("null")) {
-            this.connectDocuments= connectDocuments;
-        }
-        else
-            this.connectDocuments+= connectDocuments;
+        if (this.getConnectDocuments().equals("null")) {
+            this.connectDocuments = connectDocuments;
+        } else
+            this.connectDocuments += connectDocuments;
     }
 
     public Double getValueConnectDocuments() {
@@ -175,11 +169,11 @@ public class DataFormat {
     }
 
     public void setValueConnectDocuments(Double valueConnectDocuments) {
-        double tempValue=(valueConnectDocuments*1000000);
-        tempValue=Math.round(tempValue);
-        tempValue/=1000000;
+        double tempValue = (valueConnectDocuments * 1000000);
+        tempValue = Math.round(tempValue);
+        tempValue /= 1000000;
 
-        this.valueConnectDocuments+= tempValue;
+        this.valueConnectDocuments += tempValue;
     }
 
 }
